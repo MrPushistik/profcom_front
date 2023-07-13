@@ -61,7 +61,7 @@ const createTableRow = (elem) => {
 
     tableRow.querySelector(".pg-reduct").onclick = () => {
 
-        tmp = {
+        let tmp = {
             "id": 3,
             "surname": "Уставший",
             "name": "Евгений",
@@ -139,6 +139,8 @@ const createTableRow = (elem) => {
     ]
 
         }
+
+         tmp["status"] = elem.status;
         
         showRequest(tmp)
         

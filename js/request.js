@@ -68,7 +68,7 @@ const createTableRow = (elem) => {
             "patronymic": "Игоревич",
             "phone": "+79231672244",
             "commentGuest": "Меня бьют палками",
-            "status": "CANCELLED",
+            "status": "AT WORK",
             "typeAssistance": "OTHER",
             "createdAt": "2023-07-04T21:12:00.000Z",
             "updatedAt": "2023-07-03T21:12:00.000Z",
